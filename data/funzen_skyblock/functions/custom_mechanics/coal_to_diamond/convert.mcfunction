@@ -1,0 +1,4 @@
+execute at @s if entity @s[nbt={BlockState:{Name: "minecraft:anvil"}}] if block ~ ~0.8 ~ minecraft:lava run tag @s add lava_anvil
+execute at @s if entity @s[nbt={BlockState:{Name: "minecraft:chipped_anvil"}}] if block ~ ~0.8 ~ minecraft:lava run tag @s add lava_anvil
+execute at @s if entity @s[nbt={BlockState:{Name: "minecraft:damaged_anvil"}}] if block ~ ~0.8 ~ minecraft:lava run tag @s add lava_anvil
+execute at @s[tag=lava_anvil] align xz positioned ~0.1 ~-0.5 ~0.1 as @e[type=item, nbt={Item: {id: "minecraft:coal_block", Count: 64b}},dx=0.8,dy=0.5,dz=0.8] run data merge entity @s {Item: {id: "minecraft:diamond", Count:1b}}
