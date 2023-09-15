@@ -1,0 +1,153 @@
+{
+  "condition": "minecraft:all_of",
+  "terms": [
+    {
+      "condition": "minecraft:location_check",
+      "offsetY": 0,
+      "predicate": {
+        "block": {
+          "blocks": [
+            "minecraft:coarse_dirt"
+          ]
+        }
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "offsetY": -1,
+      "predicate": {
+        "block": {
+          "blocks": [
+            "minecraft:mushroom_stem"
+          ]
+        }
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "offsetY": -2,
+      "predicate": {
+        "block": {
+          "blocks": [
+            "minecraft:hay_block"
+          ]
+        }
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "offsetY": -3,
+      "predicate": {
+        "block": {
+          "blocks": [
+            "minecraft:coarse_dirt"
+          ]
+        }
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "offsetX": 1,
+      "offsetY": -1,
+      "predicate": {
+        "light": {
+          "light": {
+            "min": 0,
+            "max": 2
+          }
+        }
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "offsetX": -1,
+      "offsetY": -1,
+      "predicate": {
+        "light": {
+          "light": {
+            "min": 0,
+            "max": 2
+          }
+        }
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "offsetY": -1,
+      "offsetZ": 1,
+      "predicate": {
+        "light": {
+          "light": {
+            "min": 0,
+            "max": 2
+          }
+        }
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "offsetY": -1,
+      "offsetZ": -1,
+      "predicate": {
+        "light": {
+          "light": {
+            "min": 0,
+            "max": 2
+          }
+        }
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "offsetX": 1,
+      "offsetY": -2,
+      "predicate": {
+        "light": {
+          "light": {
+            "min": 0,
+            "max": 2
+          }
+        }
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "offsetX": -1,
+      "offsetY": -2,
+      "predicate": {
+        "light": {
+          "light": {
+            "min": 0,
+            "max": 2
+          }
+        }
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "offsetY": -2,
+      "offsetZ": 1,
+      "predicate": {
+        "light": {
+          "light": {
+            "min": 0,
+            "max": 2
+          }
+        }
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "offsetY": -2,
+      "offsetZ": -1,
+      "predicate": {
+        "light": {
+          "light": {
+            "min": 0,
+            "max": 2
+          }
+        }
+      }
+    }
+  ]
+}

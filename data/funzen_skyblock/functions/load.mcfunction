@@ -4,6 +4,7 @@ scoreboard objectives add skyblock_scores dummy
 scoreboard objectives setdisplay sidebar skyblock_scores
 
 scoreboard players set $clear_tick skyblock_scores 20
+#scoreboard players set $coarse_ray skyblock_scores 50
 
 #Fly cheat detector scoreboard
 scoreboard objectives remove fly_count
