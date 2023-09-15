@@ -1,0 +1,4 @@
+execute as @a[gamemode=!creative,gamemode=!spectator,nbt=!{FallFlying:1b}] at @s if block ~ ~-0.5 ~ minecraft:air if block ~ ~ ~ minecraft:air run scoreboard players add @s fly_count 1
+execute as @a if score @s fly_count matches 300.. run tellraw @a[tag=Admin] [{"text":"☠ ", "color":"red"}, {"selector":"@s", "color":"yellow"}, {"text":" Is FlyCheating ☠", "color": "red"}]
+execute as @a at @s unless block ~ ~-0.5 ~ minecraft:air if score @s fly_count matches 1.. run scoreboard players remove @s fly_count 5
+execute as @a if score @s fly_count matches 300.. run scoreboard players set @s fly_count 200

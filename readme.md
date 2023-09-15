@@ -7,6 +7,7 @@ It is made to be used along the "Standard Skyblock" data pack.
 ## Multiplayer QoL Features
 - Reset the spawn platform periodically and notify nearby players.
 - Give resistance effect to players on the spawn platform.
+- Fly cheat detection and announce it to Admin players.
 
 ## Planned Features
 - [ ] Tall flowers recipe from small ones.
