@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "group": "tall_flower",
+    "pattern": [
+      "##",
+      "##"
+    ],
+    "key": {
+      "#": {
+        "item": "minecraft:dandelion"
+      }
+    },
+    "result": {
+      "item": "minecraft:sunflower",
+      "count": 1
+    }
+  }
+  
