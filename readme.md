@@ -6,6 +6,7 @@ It is made to be used along the "Standard Skyblock" data pack.
 - Craft tall flowers from small flowers (of the same color).
 ## New Mechanics
 - Convert a stack of coal blocks to one diamond by an anvil that falls through lava.
+- Obtain mycelium by placing this blocks on top of eachother: <b>"Coarse Dirt, Hay Bale, Mushroom Stem, Coarse Dirt"</b> in light level of 2 or lower (top Coarse Block should be placed last.) It takes 5 minutes to convert and it should not be interrupted during conversion.
 ## Multiplayer QoL Features
 - Reset the spawn platform periodically and notify nearby players.
 - Give resistance effect to players on the spawn platform.
@@ -15,4 +16,3 @@ It is made to be used along the "Standard Skyblock" data pack.
 - [ ] convert guardians to elder guardians if struck by lightning in a desert biome.
 - [ ] A mechanic to get suspicious sand and gravel. (Maybe throwing a potion on top of them or something more challenging)
 - [ ] A few recipes and mechanics to get wandering trader trades easier without farming wandering traders.
-- [ ] Obtain mycelium in some way.
