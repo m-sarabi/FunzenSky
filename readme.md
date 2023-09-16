@@ -16,5 +16,6 @@ It is made to be used along the "Standard Skyblock" data pack.
 ## Planned Features
 - [ ] A few recipes and mechanics to get wandering trader trades easier without farming wandering traders.
 - [ ] Husks have a chance of dropping sand.
-- [ ] Husks have a small chance of dropping suspicious sand.
+- [ ] Husks have a small chance of dropping suspicious sand. Example of a suspicious block with loot:
+```suspicious_gravel{BlockEntityTag:{LootTable:"minecraft:archaeology/trail_ruins_common"}}```
 - [ ] Piglins have a small chance of bartering suspicious gravel.
