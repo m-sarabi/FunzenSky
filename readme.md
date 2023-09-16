@@ -14,5 +14,7 @@ It is made to be used along the "Standard Skyblock" data pack.
 - Fly cheat detection and announce it to Admin players.
 
 ## Planned Features
-- [ ] A mechanic to get suspicious sand and gravel. (Maybe throwing a potion on top of them or something more challenging)
 - [ ] A few recipes and mechanics to get wandering trader trades easier without farming wandering traders.
+- [ ] Husks have a chance of dropping sand.
+- [ ] Husks have a small chance of dropping suspicious sand.
+- [ ] Piglins have a small chance of bartering suspicious gravel.
